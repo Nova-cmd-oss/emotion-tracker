@@ -19,51 +19,58 @@ The application provides a **tabbed interface** with three main analysis modes:
 
 ### 2. Clone and Set Up Project  
 
-# Clone or create project folder
-cd path/to/projects
-mkdir emotion_age_detector && cd emotion_age_detector
+#### Clone or create project folder
+- cd path/to/projects
+- mkdir emotion_age_detector && cd emotion_age_detector
 
 ### 3. Create & Activate Virtual Environment
-# Create venv
+- Create venv : 
 python -m venv venv
 
-# Activate (Windows)
+- Activate (Windows)
 venv\Scripts\activate
 
-# Activate (macOS/Linux)
+- Activate (macOS/Linux)
 source venv/bin/activate
 
-🚀 Application Features
-🔹 Core Attributes (DeepFace)
+---
 
-Age estimation
+## 🚀 Application Features
 
-Gender detection
+### 🔹 Core Attributes (DeepFace)
 
-Emotion recognition
+- Age estimation
 
-Race classification
+- Gender detection
 
-🔹 Head Pose & Gaze (MediaPipe)
+- Emotion recognition
 
-Facial mesh visualization
+- Race classification
 
-Head direction estimation: Up, Down, Left, Right
+### 🔹 Head Pose & Gaze (MediaPipe)
 
-Eye blink detection (eyes open/closed)
+- Facial mesh visualization
 
-🔹 Accessory Detection (CVlib)
+- Head direction estimation: Up, Down, Left, Right
 
-Object detection on faces
+- Eye blink detection (eyes open/closed)
 
-Recognition of common items like eyeglasses
+### 🔹 Accessory Detection (CVlib)
 
-🛠️ Tech Stack
+- Object detection on faces
+
+- Recognition of common items like eyeglasses
+
+## 🛠️ Tech Stack
 
 Python
+
 Gradio
+
 DeepFace
+
 MediaPipe
+
 CVlib
 
 
