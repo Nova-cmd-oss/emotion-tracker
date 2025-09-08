@@ -18,7 +18,7 @@ The application provides a **tabbed interface** with three main analysis modes:
 - A working internet connection (first run will download pre-trained models).  
 
 ### 2. Clone and Set Up Project  
-```bash
+
 # Clone or create project folder
 cd path/to/projects
 mkdir emotion_age_detector && cd emotion_age_detector
