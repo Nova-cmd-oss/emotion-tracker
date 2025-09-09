@@ -1,6 +1,6 @@
-
-gradio
-deepface
-opencv-python
-mediapipe
-cvlib
+gradio==4.19.1
+deepface==0.0.79
+opencv-python-headless==4.9.0.80
+mediapipe==0.10.11
+cvlib==0.2.7
+numpy==1.26.4
